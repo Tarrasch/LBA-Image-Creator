@@ -1,0 +1,33 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TForm3','FORMDATA',[
+  'TPF0'#6'TForm3'#5'Form3'#4'Left'#3'u'#3#6'Height'#3#158#1#3'Top'#3#196#1#5'W'
+  +'idth'#3#134#1#18'HorzScrollBar.Page'#3#133#1#18'VertScrollBar.Page'#3#157#1
+  +#13'ActiveControl'#7#5'Memo1'#7'Caption'#6#4'Help'#12'ClientHeight'#3#158#1
+  +#11'ClientWidth'#3#134#1#0#5'TMemo'#5'Memo1'#4'Left'#2#8#6'Height'#3#184#1#3
+  +'Top'#2#24#5'Width'#3'u'#1#13'Lines.Strings'#1#6',Basic information for Pale'
+  +'tte Editor optons:'#6#0#6'LFirst choose what palette you want. It does not '
+  +'need any further explenation'#6#0#6'*No palette forcing (aka palette assign'
+  +'ing)'#6#0#6'NIf the image looks weird and you know the wrong palette is cho'
+  +'sen, take don''t '#6'Epalette force. This alternative will make the images '
+  +'by LIC be shown '#6'Ncompletely different. And you cannot put in bmps from '
+  +'files without they also '#6#31'looking weird in the real game.'#6'GThis alt'
+  +'ernative won''t edit the entrys data, except for entries by LIC '#6'Qconsid'
+  +'ered palettes. If that is the case then the palette-entry will be replaced '
+  +#6'!with the palette you have chosen.'#6'LFor Image entries, this will only '
+  +'really make sense if LIC shows the images '#6#8'weirdly.'#6#28'This always '
+  +'goes in no-time.'#6#0#6#26'Euclidean palette forcing:'#6#0#6'MIf you for ex'
+  +'ample want all LBA1 images to use a LBA2 palette instead of the '#6'NLBA1 p'
+  +'alette. No problem, euclidean alternative does it extremely fast due to '#6
+  +'Kboth input and output have a restricted space of the same size. converting'
+  +' '#6'Owith euclidean quality. Processing time for 1 image multiplied with 2'
+  +' might be '#6'Mthe same as the processing time for converting 1000 images ('
+  +'Only if the 1000 '#6'%are assigned with the same palette!).'#6#0#6#26'Dithe'
+  +'ring palette forcing:'#6#0#6'SDithering will result with basically the same'
+  +' as the euclidean, but it can wastely '#6'Kimprove the output image quality'
+  +'. It can also make it with almost the same '#6'Kappearance as you would get'
+  +' with euclidean method. The disadvantage? It is '#6'Roften in average about'
+  +' 100 times slower. Note that the relation is not at all the '#6'Esame when '
+  +'it comes to load bmp''s with euclidean and dithering method.'#0#10'OnKeyPre'
+  +'ss'#7#13'Memo1KeyPress'#8'ReadOnly'#9#8'TabOrder'#2#0#0#0#0
+]);

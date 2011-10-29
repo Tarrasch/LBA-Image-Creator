@@ -1,0 +1,111 @@
+object MPImgEditForm: TMPImgEditForm
+  Left = 345
+  Height = 605
+  Top = 389
+  Width = 543
+  HorzScrollBar.Page = 542
+  VertScrollBar.Page = 604
+  ActiveControl = ComboBox1
+  Caption = 'MPImgEditForm'
+  ClientHeight = 605
+  ClientWidth = 543
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnKeyPress = FormKeyPress
+  OnResize = FormResize
+  object Image1: TImage
+    Left = 40
+    Height = 100
+    Top = 96
+    Width = 100
+    AutoSize = True
+    Transparent = False
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 17
+    Top = 40
+    Width = 205
+    Caption = 'Image location on hard drive'
+    ParentColor = False
+  end
+  object ComboBox1: TComboBox
+    AnchorSideRight.Side = asrBottom
+    Left = 397
+    Height = 21
+    Top = 14
+    Width = 132
+    Anchors = [akTop, akRight]
+    AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+    ItemIndex = 0
+    Items.Strings = (
+      'Spriraw'
+      'Sprite'
+      'Brick'
+      'Small Raw'
+      'Large Raw'
+    )
+    MaxLength = 0
+    OnChange = ComboBox1Change
+    Style = csDropDownList
+    TabOrder = 0
+    Text = 'Spriraw'
+  end
+  object Edit1: TEdit
+    Left = 40
+    Height = 20
+    Top = 64
+    Width = 247
+    OnChange = Edit1Change
+    TabOrder = 1
+    Text = 'Location'
+  end
+  object Button1: TButton
+    AnchorSideRight.Side = asrCenter
+    Left = 502
+    Height = 24
+    Top = 60
+    Width = 27
+    Anchors = [akTop, akRight]
+    BorderSpacing.InnerBorder = 4
+    Caption = '...'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object CheckBox1: TCheckBox
+    Left = 40
+    Height = 24
+    Top = 16
+    Width = 67
+    Caption = 'Dither'
+    Checked = True
+    OnChange = CheckBox1Change
+    State = cbChecked
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 40
+    Height = 25
+    Top = 544
+    Width = 489
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Button2'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object CheckBox2: TCheckBox
+    Left = 104
+    Height = 24
+    Hint = 'The pure white color $FFFFFF will be transparent, notice that <red=1 and rest =0> is also transparent. Transparaency is only for Spriraw,Brick and Sprite'
+    Top = 16
+    Width = 230
+    Caption = 'Make pure white transparent'
+    TabOrder = 5
+  end
+  object OpenPictureDialog1: TOpenPictureDialog
+    Title = 'Open existing file'
+    Filter = 'Graphic (*.jpeg;*.jpg;*.ico;*.ppm;*.pgm;*.pbm;*.png;*.xpm;*.bmp)|*.jpeg;*.jpg;*.ico;*.ppm;*.pgm;*.pbm;*.png;*.xpm;*.bmp|JPEG Image File (*.jpeg)|*.jpeg|JPEG Image File (*.jpg)|*.jpg|Icon (*.ico)|*.ico|Portable PixMap (*.ppm)|*.ppm|Portable GrayMap (*.pgm)'
+    FilterIndex = 0
+  end
+end

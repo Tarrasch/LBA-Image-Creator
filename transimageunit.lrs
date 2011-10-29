@@ -1,0 +1,26 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TMPImgEditForm','FORMDATA',[
+  'TPF0'#14'TMPImgEditForm'#13'MPImgEditForm'#4'Left'#3#4#2#6'Height'#3#180#2#3
+  +'Top'#3#16#1#5'Width'#3'r'#2#18'HorzScrollBar.Page'#3'q'#2#18'VertScrollBar.'
+  +'Page'#3#179#2#13'ActiveControl'#7#9'ComboBox1'#7'Caption'#6#13'MPImgEditFor'
+  +'m'#0#6'TLabel'#6'Label1'#4'Left'#2'('#6'Height'#2#16#3'Top'#2'('#5'Width'#3
+  +#153#0#7'Caption'#6#28'Image location on hard drive'#5'Color'#7#6'clNone'#11
+  +'ParentColor'#8#0#0#6'TImage'#6'Image1'#4'Left'#2'('#6'Height'#2'd'#3'Top'#2
+  +'`'#5'Width'#2'd'#0#0#9'TComboBox'#9'ComboBox1'#4'Left'#3#136#1#6'Height'#2
+  +#21#3'Top'#2#8#5'Width'#3#132#0#16'AutoCompleteText'#11#22'cbactEndOfLineCom'
+  +'plete'#20'cbactSearchAscending'#0#9'ItemIndex'#2#0#13'Items.Strings'#1#6#7
+  +'Spriraw'#6#6'Sprite'#6#5'Brick'#0#9'MaxLength'#2#0#5'Style'#7#14'csDropDown'
+  +'List'#8'TabOrder'#2#0#4'Text'#6#7'Spriraw'#0#0#5'TEdit'#5'Edit1'#4'Left'#2
+  +'('#6'Height'#2#20#3'Top'#2'@'#5'Width'#3#247#0#8'TabOrder'#2#1#4'Text'#6#8
+  +'Location'#0#0#7'TButton'#7'Button1'#4'Left'#3'('#1#6'Height'#2#24#3'Top'#2
+  +'<'#5'Width'#2#27#25'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#3'...'#7'On'
+  +'Click'#7#12'Button1Click'#8'TabOrder'#2#2#0#0#9'TCheckBox'#9'CheckBox1'#4'L'
+  +'eft'#2'('#6'Height'#2#15#3'Top'#2#14#5'Width'#2'2'#7'Caption'#6#6'Dither'#8
+  +'TabOrder'#2#3#0#0#18'TOpenPictureDialog'#18'OpenPictureDialog1'#5'Title'#6
+  +#18'Open existing file'#6'Filter'#6#255'Graphic (*.jpeg;*.jpg;*.ico;*.ppm;*.'
+  +'pgm;*.pbm;*.png;*.xpm;*.bmp)|*.jpeg;*.jpg;*.ico;*.ppm;*.pgm;*.pbm;*.png;*.x'
+  +'pm;*.bmp|JPEG Image File (*.jpeg)|*.jpeg|JPEG Image File (*.jpg)|*.jpg|Icon'
+  +' (*.ico)|*.ico|Portable PixMap (*.ppm)|*.ppm|Portable GrayMap (*.pgm)'#11'F'
+  +'ilterIndex'#2#0#0#0#0
+]);

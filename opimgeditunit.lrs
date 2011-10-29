@@ -1,0 +1,90 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TOPImgEditForm','FORMDATA',[
+  'TPF0'#14'TOPImgEditForm'#13'OPImgEditForm'#4'Left'#3#155#1#6'Height'#3#216#2
+  +#3'Top'#3#10#1#5'Width'#3#206#2#18'HorzScrollBar.Page'#3#205#2#18'VertScroll'
+  +'Bar.Page'#3#215#2#13'ActiveControl'#7#12'RadioButton2'#7'Caption'#6#13'OPIm'
+  +'gEditForm'#12'ClientHeight'#3#216#2#11'ClientWidth'#3#206#2#10'OnActivate'#7
+  +#12'FormActivate'#8'OnCreate'#7#10'FormCreate'#10'OnKeyPress'#7#12'FormKeyPr'
+  +'ess'#8'OnResize'#7#10'FormResize'#10'LCLVersion'#6#6'0.9.25'#0#6'TImage'#6
+  +'Image1'#4'Left'#2'('#6'Height'#2'd'#3'Top'#2'`'#5'Width'#2'd'#8'AutoSize'#9
+  +#11'Transparent'#8#0#0#6'TImage'#6'Image2'#4'Left'#2'0'#6'Height'#2'2'#3'Top'
+  +#3'?'#2#5'Width'#3#0#1#7'Anchors'#11#6'akLeft'#8'akBottom'#0#11'Transparent'
+  +#8#0#0#6'TLabel'#6'Label1'#4'Left'#2'('#6'Height'#2#16#3'Top'#2'*'#5'Width'#3
+  +#153#0#7'Caption'#6#28'Image location on hard drive'#11'ParentColor'#8#0#0#6
+  +'TLabel'#6'Label2'#4'Left'#2'0'#6'Height'#2#16#3'Top'#3#225#1#5'Width'#2'I'#7
+  +'Anchors'#11#6'akLeft'#8'akBottom'#0#7'Caption'#6#15'Save palette...'#11'Par'
+  +'entColor'#8#0#0#6'TLabel'#6'Label3'#4'Left'#2'0'#6'Height'#2#17#3'Top'#3#152
+  +#1#5'Width'#2'8'#7'Anchors'#11#5'akTop'#6'akLeft'#8'akBottom'#0#7'Caption'#6
+  +#11'Text color:'#11'ParentColor'#8#0#0#6'TLabel'#6'Label4'#4'Left'#3#144#0#6
+  +'Height'#2#17#3'Top'#3#152#1#5'Width'#2'6'#7'Anchors'#11#5'akTop'#6'akLeft'#8
+  +'akBottom'#0#7'Caption'#6#10'Startfrom:'#11'ParentColor'#8#0#0#6'TLabel'#6'L'
+  +'abel5'#4'Left'#3'0'#1#6'Height'#2#17#3'Top'#3#152#1#5'Width'#2#28#7'Anchors'
+  +#11#5'akTop'#6'akLeft'#8'akBottom'#0#7'Caption'#6#5'Data:'#11'ParentColor'#8
+  +#0#0#6'TImage'#6'Image3'#4'Left'#3#8#1#6'Height'#2'('#3'Top'#3#224#1#5'Width'
+  +#3#178#1#7'Anchors'#11#5'akTop'#6'akLeft'#8'akBottom'#0#11'Transparent'#8#7
+  +'Visible'#8#0#0#12'TRadioButton'#12'RadioButton2'#4'Left'#2'0'#6'Height'#2#21
+  +#3'Top'#3#129#2#5'Width'#2'O'#7'Anchors'#11#6'akLeft'#8'akBottom'#0#7'Captio'
+  +'n'#6#10'To archive'#7'Checked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#0#0#0
+  +#9'TSpinEdit'#9'SpinEdit1'#4'Left'#3#176#0#6'Height'#2#23#3'Top'#3#135#2#5'W'
+  +'idth'#2'F'#7'Anchors'#11#6'akLeft'#8'akBottom'#0#8'OnChange'#7#15'SpinEdit1'
+  +'Change'#8'TabOrder'#2#1#0#0#7'TButton'#7'Button2'#4'Left'#3#0#1#6'Height'#2
+  +#23#3'Top'#3#135#2#5'Width'#2'K'#7'Anchors'#11#6'akLeft'#8'akBottom'#0#25'Bo'
+  +'rderSpacing.InnerBorder'#2#4#7'Caption'#6#9'Find next'#7'OnClick'#7#12'Butt'
+  +'on2Click'#8'TabOrder'#2#2#0#0#7'TButton'#7'Button6'#4'Left'#3'`'#1#6'Height'
+  +#2#23#3'Top'#3#135#2#5'Width'#2'K'#7'Anchors'#11#6'akLeft'#8'akBottom'#0#25
+  +'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#9'Backwards'#7'OnClick'#7#12'Bu'
+  +'tton6Click'#8'TabOrder'#2#3#0#0#9'TComboBox'#9'ComboBox1'#20'AnchorSideRigh'
+  +'t.Side'#7#9'asrBottom'#4'Left'#3'6'#2#6'Height'#2#21#3'Top'#2#18#5'Width'#3
+  +#132#0#7'Anchors'#11#5'akTop'#7'akRight'#0#16'AutoCompleteText'#11#22'cbactE'
+  +'ndOfLineComplete'#20'cbactSearchAscending'#0#10'ItemHeight'#2#13#13'Items.S'
+  +'trings'#1#6#9'Small Raw'#6#9'Large Raw'#0#9'MaxLength'#2#0#8'OnChange'#7#15
+  +'ComboBox1Change'#5'Style'#7#14'csDropDownList'#8'TabOrder'#2#4#0#0#5'TEdit'
+  +#5'Edit1'#4'Left'#2'('#6'Height'#2#20#3'Top'#2'B'#5'Width'#3#247#0#8'OnChang'
+  +'e'#7#11'Edit1Change'#8'TabOrder'#2#5#4'Text'#6#8'Location'#0#0#7'TButton'#7
+  +'Button1'#20'AnchorSideRight.Side'#7#9'asrCenter'#4'Left'#3#159#2#6'Height'#2
+  +#24#3'Top'#2'>'#5'Width'#2#27#7'Anchors'#11#5'akTop'#7'akRight'#0#25'BorderS'
+  +'pacing.InnerBorder'#2#4#7'Caption'#6#3'...'#7'OnClick'#7#12'Button1Click'#8
+  +'TabOrder'#2#6#0#0#9'TCheckBox'#9'CheckBox1'#4'Left'#2'('#6'Height'#2#21#3'T'
+  +'op'#2#18#5'Width'#2'8'#7'Caption'#6#6'Dither'#7'Checked'#9#8'OnChange'#7#15
+  +'CheckBox1Change'#5'State'#7#9'cbChecked'#8'TabOrder'#2#7#0#0#7'TButton'#7'B'
+  +'utton3'#4'Left'#2'0'#6'Height'#2#25#3'Top'#3#175#2#5'Width'#3#20#2#7'Anchor'
+  +'s'#11#6'akLeft'#8'akBottom'#0#25'BorderSpacing.InnerBorder'#2#4#7'Caption'#6
+  +#7'Button3'#7'OnClick'#7#12'Button3Click'#8'TabOrder'#2#8#0#0#12'TRadioButto'
+  +'n'#12'RadioButton1'#4'Left'#2'0'#6'Height'#2#21#3'Top'#3#250#1#5'Width'#2'9'
+  +#7'Anchors'#11#6'akLeft'#8'akBottom'#0#7'Caption'#6#7'To file'#8'TabOrder'#2
+  +#9#0#0#7'TButton'#7'Button4'#20'AnchorSideRight.Side'#7#9'asrCenter'#4'Left'
+  +#3#159#2#6'Height'#2#24#3'Top'#3#23#2#5'Width'#2#27#7'Anchors'#11#7'akRight'
+  +#8'akBottom'#0#25'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#3'...'#7'OnCli'
+  +'ck'#7#12'Button4Click'#8'TabOrder'#2#10#0#0#5'TEdit'#5'Edit2'#4'Left'#2'0'#6
+  +'Height'#2#20#3'Top'#3#27#2#5'Width'#3#247#0#7'Anchors'#11#6'akLeft'#8'akBot'
+  +'tom'#0#8'TabOrder'#2#11#4'Text'#6#8'Location'#0#0#5'TEdit'#5'Edit3'#4'Left'
+  +#3'`'#1#6'Height'#2#23#3'Top'#3#152#1#5'Width'#3'Z'#1#7'Anchors'#11#5'akTop'
+  +#6'akLeft'#8'akBottom'#0#8'ReadOnly'#9#8'TabOrder'#2#12#0#0#7'TButton'#7'But'
+  +'ton5'#4'Left'#2'0'#6'Height'#2#24#3'Top'#3#184#1#5'Width'#2's'#7'Anchors'#11
+  +#5'akTop'#6'akLeft'#8'akBottom'#0#7'Caption'#6#8'Set none'#7'OnClick'#7#12'B'
+  +'utton5Click'#8'TabOrder'#2#13#0#0#7'TButton'#7'Button7'#4'Left'#3#192#0#6'H'
+  +'eight'#2#24#3'Top'#3#184#1#5'Width'#2's'#7'Anchors'#11#5'akTop'#6'akLeft'#8
+  ,'akBottom'#0#7'Caption'#6#13'LBA1 Standard'#7'OnClick'#7#12'Button7Click'#8
+  +'TabOrder'#2#14#0#0#7'TButton'#7'Button8'#4'Left'#3'P'#1#6'Height'#2#24#3'To'
+  +'p'#3#184#1#5'Width'#2's'#7'Anchors'#11#5'akTop'#6'akLeft'#8'akBottom'#0#7'C'
+  +'aption'#6#10'LBA2 alike'#7'OnClick'#7#12'Button8Click'#8'TabOrder'#2#15#0#0
+  +#5'TEdit'#5'Edit4'#4'Left'#3#224#0#6'Height'#2#23#3'Top'#3#152#1#5'Width'#2
+  +'@'#7'Anchors'#11#5'akTop'#6'akLeft'#8'akBottom'#0#8'ReadOnly'#9#8'TabOrder'
+  +#2#16#4'Text'#6#1'0'#0#0#7'TBitBtn'#7'BitBtn1'#4'Left'#3#224#1#6'Height'#2#24
+  +#4'Hint'#6#159'Custom (unlock):'#10#10'Unlocks the Startfrom and Data fields'
+  +'.'#10#10'It is only intended for advanced users.'#10#10'Be warned that LIC '
+  +'ain''t constructed to handle illegal input'#3'Top'#3#184#1#5'Width'#2's'#7
+  +'Anchors'#11#5'akTop'#6'akLeft'#8'akBottom'#0#7'Caption'#6#15'Custom (unlock'
+  +')'#4'Kind'#7#7'bkAbort'#11'ModalResult'#2#3#9'NumGlyphs'#2#0#7'OnClick'#7#12
+  +'BitBtn1Click'#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#17#0#0#7'TBu'
+  +'tton'#7'Button9'#4'Left'#3#168#0#6'Height'#2#24#3'Top'#3#224#1#5'Width'#2'X'
+  +#7'Anchors'#11#5'akTop'#6'akLeft'#8'akBottom'#0#7'Caption'#6#13'TxtClrPrevie'
+  +'w'#7'OnClick'#7#12'Button9Click'#8'TabOrder'#2#18#7'Visible'#8#0#0#18'TOpen'
+  +'PictureDialog'#18'OpenPictureDialog1'#6'Filter'#6#255'Graphic (*.jpeg;*.jpg'
+  +';*.ico;*.ppm;*.pgm;*.pbm;*.png;*.xpm;*.bmp)|*.jpeg;*.jpg;*.ico;*.ppm;*.pgm;'
+  +'*.pbm;*.png;*.xpm;*.bmp|JPEG Image File (*.jpeg)|*.jpeg|JPEG Image File (*.'
+  +'jpg)|*.jpg|Icon (*.ico)|*.ico|Portable PixMap (*.ppm)|*.ppm|Portable GrayMa'
+  +'p (*.pgm)'#11'FilterIndex'#2#0#0#0#12'TColorDialog'#12'ColorDialog1'#3'top'
+  +#2#24#0#0#0
+]);

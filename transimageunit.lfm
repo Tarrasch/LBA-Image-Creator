@@ -1,0 +1,73 @@
+object MPImgEditForm: TMPImgEditForm
+  Left = 516
+  Height = 692
+  Top = 272
+  Width = 626
+  HorzScrollBar.Page = 625
+  VertScrollBar.Page = 691
+  ActiveControl = ComboBox1
+  Caption = 'MPImgEditForm'
+  object Label1: TLabel
+    Left = 40
+    Height = 16
+    Top = 40
+    Width = 153
+    Caption = 'Image location on hard drive'
+    Color = clNone
+    ParentColor = False
+  end
+  object Image1: TImage
+    Left = 40
+    Height = 100
+    Top = 96
+    Width = 100
+  end
+  object ComboBox1: TComboBox
+    Left = 392
+    Height = 21
+    Top = 8
+    Width = 132
+    AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+    ItemIndex = 0
+    Items.Strings = (
+      'Spriraw'
+      'Sprite'
+      'Brick'
+    )
+    MaxLength = 0
+    Style = csDropDownList
+    TabOrder = 0
+    Text = 'Spriraw'
+  end
+  object Edit1: TEdit
+    Left = 40
+    Height = 20
+    Top = 64
+    Width = 247
+    TabOrder = 1
+    Text = 'Location'
+  end
+  object Button1: TButton
+    Left = 296
+    Height = 24
+    Top = 60
+    Width = 27
+    BorderSpacing.InnerBorder = 4
+    Caption = '...'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object CheckBox1: TCheckBox
+    Left = 40
+    Height = 15
+    Top = 14
+    Width = 50
+    Caption = 'Dither'
+    TabOrder = 3
+  end
+  object OpenPictureDialog1: TOpenPictureDialog
+    Title = 'Open existing file'
+    Filter = 'Graphic (*.jpeg;*.jpg;*.ico;*.ppm;*.pgm;*.pbm;*.png;*.xpm;*.bmp)|*.jpeg;*.jpg;*.ico;*.ppm;*.pgm;*.pbm;*.png;*.xpm;*.bmp|JPEG Image File (*.jpeg)|*.jpeg|JPEG Image File (*.jpg)|*.jpg|Icon (*.ico)|*.ico|Portable PixMap (*.ppm)|*.ppm|Portable GrayMap (*.pgm)'
+    FilterIndex = 0
+  end
+end

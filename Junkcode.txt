@@ -1,0 +1,56 @@
+JunkCode
+
+K mean clustering 1 lap:
+
+{
+var
+pointstoarray,lastpointstoarray:array of array of byte;
+closest:byte;
+closestdistance,distance:DWord;
+RGBImage:array of array of RGB;
+forer1,forer2,forer3:word;
+//entriesarray: array of RGB; //I setlength for every nr
+amountentriesarray: array[0..255] of DWord;
+RedSumOfArray:array[0..255] of QWord;
+GreenSumOfArray:array[0..255] of QWord;
+BlueSumOfArray:array[0..255] of QWord;
+count:dword =0;
+identicalresult:boolean;   }
+
+
+//setlength(pointstoarray,self.Width,self.Height);
+               {
+for forer1:=0 to palettenumberofcolorsminus1 do
+begin
+amountentriesarray[forer1]:=0;
+RedSumOfArray[forer1]:=0;
+GreenSumOfArray[forer1]:=0;
+BlueSumOfArray[forer1]:=0;
+end;
+
+for forer1:=byte(dither) to self.Width-1+byte(dither) do begin
+    for forer2:=0 to self.Height-1 do begin
+closestdistance:=maxlongint;
+for forer3:=0 to palettenumberofcolorsminus1 do begin
+tmpdistance := {$IFDEF ED} sqr( {$ELSE} abs( {$ENDIF}TheImage[forer1,forer2].red-self.palette[forer3].Red)+{$IFDEF ED} sqr( {$ELSE} abs( {$ENDIF}TheImage[forer1,forer2].green-self.palette[forer3].Green)+{$IFDEF ED} sqr( {$ELSE} abs( {$ENDIF}TheImage[forer1,forer2].blue-self.palette[forer3].Blue);
+
+if tmpdistance<closestdistance then begin
+closestdistance:=tmpdistance;
+closest:=forer3;
+end;
+end;
+end;
+inc(amountentriesarray[closest]);
+RedSumOfArray[closest]+=TheImage[forer1,forer2].red;
+GreenSumOfArray[closest]+=TheImage[forer1,forer2].green;
+BlueSumOfArray[closest]+=TheImage[forer1,forer2].blue;
+//pointstoarray[forer1,forer2]:=closest;
+end;
+
+for forer3:=0 to palettenumberofcolorsminus1 do
+if amountentriesarray[forer3]>=1 then begin
+self.Palette[forer3].Red:=round(RedSumOfArray[forer3] / amountentriesarray[forer3]);
+self.Palette[forer3].Green:=round(GreenSumOfArray[forer3] / amountentriesarray[forer3]);
+self.Palette[forer3].Blue:=round(BlueSumOfArray[forer3] / amountentriesarray[forer3]);
+end;
+                     }

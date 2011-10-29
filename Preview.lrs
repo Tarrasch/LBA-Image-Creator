@@ -1,0 +1,12 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TPreviewForm','FORMDATA',[
+  'TPF0'#12'TPreviewForm'#11'PreviewForm'#4'Left'#3'v'#2#6'Height'#3#221#0#3'To'
+  +'p'#3#192#2#5'Width'#3#141#1#18'HorzScrollBar.Page'#3#140#1#18'VertScrollBar'
+  +'.Page'#3#220#0#7'Caption'#6'"Preview Window (press teh any key)'#12'ClientH'
+  +'eight'#3#221#0#11'ClientWidth'#3#141#1#11'Font.Height'#2#245#9'Font.Name'#6
+  +#6'Tahoma'#10'OnKeyPress'#7#12'FormKeyPress'#8'OnResize'#7#10'FormResize'#6
+  +'OnShow'#7#8'FormShow'#0#6'TImage'#6'Image1'#6'Height'#2'i'#5'Width'#2'i'#8
+  +'AutoSize'#9#11'Transparent'#8#0#0#6'TImage'#6'Image2'#4'Left'#2'p'#6'Height'
+  +#2'i'#5'Width'#2'i'#11'Transparent'#8#0#0#0
+]);

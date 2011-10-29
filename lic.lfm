@@ -1,0 +1,275 @@
+object Form1: TForm1
+  Left = 524
+  Height = 563
+  Top = 442
+  Width = 726
+  HorzScrollBar.Page = 725
+  VertScrollBar.Page = 562
+  ActiveControl = BitBtn1
+  Caption = 'LBA Image Creator 1.0'
+  KeyPreview = True
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnResize = FormResize
+  object Image1: TImage
+    Left = 56
+    Height = 100
+    Top = 50
+    Width = 100
+    AutoSize = True
+    PopupMenu = PopupMenu1
+  end
+  object Panel1: TPanel
+    Height = 490
+    Top = 50
+    Width = 56
+    Align = alLeft
+    BevelInner = bvRaised
+    BevelOuter = bvNone
+    TabOrder = 0
+    object BitBtn1: TBitBtn
+      Left = 8
+      Height = 32
+      Top = 6
+      Width = 32
+      Layout = blGlyphTop
+      NumGlyphs = 0
+      OnClick = BitBtn1Click
+      TabOrder = 0
+    end
+    object BitBtn2: TBitBtn
+      Left = 8
+      Height = 32
+      Top = 48
+      Width = 32
+      Layout = blGlyphTop
+      NumGlyphs = 0
+      OnClick = BitBtn2Click
+      TabOrder = 1
+    end
+    object BitBtn3: TBitBtn
+      Left = 8
+      Height = 32
+      Top = 88
+      Width = 32
+      Layout = blGlyphTop
+      NumGlyphs = 0
+      OnClick = BitBtn3Click
+      TabOrder = 2
+    end
+    object BitBtn4: TBitBtn
+      Left = 8
+      Height = 32
+      Top = 128
+      Width = 32
+      Layout = blGlyphTop
+      NumGlyphs = 0
+      OnClick = BitBtn4Click
+      TabOrder = 3
+    end
+    object BitBtn5: TBitBtn
+      Left = 8
+      Height = 32
+      Top = 168
+      Width = 32
+      Layout = blGlyphTop
+      NumGlyphs = 0
+      OnClick = BitBtn5Click
+      PopupMenu = PopupMenu2
+      TabOrder = 4
+    end
+    object BitBtn6: TBitBtn
+      Left = 8
+      Height = 32
+      Top = 206
+      Width = 32
+      Layout = blGlyphTop
+      NumGlyphs = 0
+      OnClick = BitBtn6Click
+      TabOrder = 5
+    end
+    object BitBtn11: TBitBtn
+      Left = 8
+      Height = 32
+      Top = 246
+      Width = 32
+      Layout = blGlyphTop
+      NumGlyphs = 0
+      OnClick = BitBtn11Click
+      TabOrder = 6
+    end
+    object BitBtn12: TBitBtn
+      Left = 8
+      Height = 32
+      Top = 286
+      Width = 32
+      Layout = blGlyphTop
+      NumGlyphs = 0
+      TabOrder = 7
+    end
+  end
+  object Panel2: TPanel
+    Height = 50
+    Width = 726
+    Align = alTop
+    TabOrder = 1
+    OnClick = Panel2Click
+    object Label4: TLabel
+      Left = 251
+      Height = 16
+      Top = 4
+      Width = 29
+      Caption = 'Index'
+      Color = clNone
+      ParentColor = False
+    end
+    object BitBtn7: TBitBtn
+      Left = 8
+      Height = 42
+      Hint = 'Load High Quality Resource archive'#10#10'You must do it to use this program'
+      Top = 4
+      Width = 42
+      NumGlyphs = 0
+      OnClick = BitBtn7Click
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 0
+    end
+    object BitBtn8: TBitBtn
+      Left = 64
+      Height = 42
+      Hint = 'Save a the archive project you are currently using.'#10#10'This will not close your current project.'
+      Top = 4
+      Width = 42
+      NumGlyphs = 0
+      OnClick = BitBtn8Click
+      PopupMenu = PopupMenu3
+      TabOrder = 1
+    end
+    object BitBtn9: TBitBtn
+      Left = 120
+      Height = 42
+      Top = 4
+      Width = 42
+      NumGlyphs = 0
+      OnClick = BitBtn9Click
+      TabOrder = 2
+    end
+    object BitBtn10: TBitBtn
+      Left = 176
+      Height = 42
+      Top = 4
+      Width = 42
+      NumGlyphs = 0
+      OnClick = BitBtn10Click
+      TabOrder = 3
+    end
+    object CheckBox1: TCheckBox
+      Left = 352
+      Height = 15
+      Top = 23
+      Width = 64
+      Caption = 'Autoload'
+      Checked = True
+      State = cbChecked
+      TabOrder = 4
+    end
+    object SpinEdit1: TSpinEdit
+      Left = 288
+      Height = 23
+      Top = 23
+      Width = 58
+      MaxValue = 0
+      OnChange = SpinEdit1Change
+      TabOrder = 5
+    end
+    object Button1: TButton
+      Left = 248
+      Height = 23
+      Top = 23
+      Width = 35
+      BorderSpacing.InnerBorder = 4
+      Caption = 'Load'
+      OnClick = Button1Click
+      TabOrder = 6
+    end
+  end
+  object StatusBar1: TStatusBar
+    Height = 23
+    Top = 540
+    Width = 726
+    Panels = <    
+      item
+        Text = 'LIC v 1.0'
+        Width = 54
+      end    
+      item
+        Width = 70
+      end    
+      item
+        Width = 70
+      end    
+      item
+        Width = 70
+      end    
+      item
+        Width = 70
+      end    
+      item
+        Width = 70
+      end    
+      item
+        Width = 50
+      end    
+      item
+        Width = 50
+      end>
+    SimplePanel = False
+  end
+  object OpenDialog1: TOpenDialog
+    Title = 'Open existing file'
+    FilterIndex = 0
+    left = 488
+  end
+  object SaveDialog1: TSaveDialog
+    Title = 'Save file as'
+    FilterIndex = 0
+    left = 512
+  end
+  object PopupMenu1: TPopupMenu
+    left = 48
+    top = 56
+    object MenuItem1: TMenuItem
+      Caption = 'New Item1'
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Save Image...'
+      OnClick = MenuItem2Click
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'New Item3'
+    end
+    object MenuItem4: TMenuItem
+      Caption = 'New Item4'
+    end
+  end
+  object PopupMenu2: TPopupMenu
+    left = 216
+    object MenuItem5: TMenuItem
+      Caption = 'Extract without decompression'
+      OnClick = MenuItem5Click
+    end
+    object MenuItem6: TMenuItem
+      Caption = 'Never mind...'
+    end
+  end
+  object PopupMenu3: TPopupMenu
+    top = 56
+    object MenuItem7: TMenuItem
+      Caption = 'Recalculate repeated'
+    end
+    object MenuItem8: TMenuItem
+      Caption = 'Never mind...'
+    end
+  end
+end

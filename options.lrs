@@ -1,0 +1,26 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TOptionsForm','FORMDATA',[
+  'TPF0'#12'TOptionsForm'#11'OptionsForm'#4'Left'#3#206#2#6'Height'#3#133#1#3'T'
+  +'op'#3'_'#1#5'Width'#3#210#1#18'HorzScrollBar.Page'#3#209#1#18'VertScrollBar'
+  +'.Page'#3#132#1#13'ActiveControl'#7#10'ToggleBox1'#7'Caption'#6#7'Options'#12
+  +'ClientHeight'#3#133#1#11'ClientWidth'#3#210#1#0#9'TGroupBox'#9'GroupBox1'#4
+  +'Left'#2#16#6'Height'#2'@'#3'Top'#2#16#5'Width'#3#178#1#7'Caption'#6#17'Auto'
+  +' Save options'#12'ClientHeight'#2'+'#11'ClientWidth'#3#174#1#8'TabOrder'#2#0
+  +#0#6'TLabel'#6'Label1'#4'Left'#3#158#0#6'Height'#2#17#3'Top'#2#19#5'Width'#2
+  +'v'#7'Caption'#6#15'Auto save every'#11'ParentColor'#8#0#0#6'TLabel'#6'Label'
+  +'2'#4'Left'#3'6'#1#6'Height'#2#17#3'Top'#2#19#5'Width'#2'8'#7'Caption'#6#6'S'
+  +'econd'#11'ParentColor'#8#0#0#10'TToggleBox'#10'ToggleBox1'#4'Left'#2#7#6'He'
+  +'ight'#2#26#3'Top'#2#10#5'Width'#2'w'#7'Caption'#6#19'Auto Save activated'#8
+  +'TabOrder'#2#0#0#0#5'TEdit'#5'Edit1'#4'Left'#3#254#0#6'Height'#2#22#3'Top'#2
+  +#13#5'Width'#2'0'#8'ReadOnly'#9#8'TabOrder'#2#1#4'Text'#6#3'150'#0#0#7'TButt'
+  +'on'#7'Button1'#4'Left'#3'n'#1#6'Height'#2#25#3'Top'#2#10#5'Width'#2'8'#25'B'
+  +'orderSpacing.InnerBorder'#2#4#7'Caption'#6#3'Set'#7'OnClick'#7#12'Button1Cl'
+  +'ick'#8'TabOrder'#2#2#0#0#0#9'TCheckBox'#9'CheckBox1'#4'Left'#2#16#6'Height'
+  +#2#24#3'Top'#2'`'#5'Width'#3#218#0#7'Caption'#6#25'Autosave at close program'
+  +#7'Checked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#1#0#0#10'TStatusBar'#10
+  +'StatusBar1'#6'Height'#2#24#3'Top'#3'm'#1#5'Width'#3#210#1#6'Panels'#14#0#0#0
+  +#9'TCheckBox'#9'CheckBox2'#4'Left'#2#16#6'Height'#2#24#3'Top'#3#128#0#5'Widt'
+  +'h'#3#3#2#7'Caption'#6'@Auto-overwrite a recovery project every 30 seconds ('
+  +'recommended)'#7'Checked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#2#0#0#0
+]);

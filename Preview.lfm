@@ -1,0 +1,28 @@
+object PreviewForm: TPreviewForm
+  Left = 630
+  Height = 221
+  Top = 704
+  Width = 397
+  HorzScrollBar.Page = 396
+  VertScrollBar.Page = 220
+  Caption = 'Preview Window (press teh any key)'
+  ClientHeight = 221
+  ClientWidth = 397
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnKeyPress = FormKeyPress
+  OnResize = FormResize
+  OnShow = FormShow
+  object Image1: TImage
+    Height = 105
+    Width = 105
+    AutoSize = True
+    Transparent = False
+  end
+  object Image2: TImage
+    Left = 112
+    Height = 105
+    Width = 105
+    Transparent = False
+  end
+end

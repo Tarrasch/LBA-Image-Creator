@@ -1,0 +1,302 @@
+object OPImgEditForm: TOPImgEditForm
+  Left = 411
+  Height = 728
+  Top = 266
+  Width = 718
+  HorzScrollBar.Page = 717
+  VertScrollBar.Page = 727
+  ActiveControl = RadioButton2
+  Caption = 'OPImgEditForm'
+  ClientHeight = 728
+  ClientWidth = 718
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnKeyPress = FormKeyPress
+  OnResize = FormResize
+  LCLVersion = '0.9.25'
+  object Image1: TImage
+    Left = 40
+    Height = 100
+    Top = 96
+    Width = 100
+    AutoSize = True
+    Transparent = False
+  end
+  object Image2: TImage
+    Left = 48
+    Height = 50
+    Top = 575
+    Width = 256
+    Anchors = [akLeft, akBottom]
+    Transparent = False
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 16
+    Top = 42
+    Width = 153
+    Caption = 'Image location on hard drive'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 48
+    Height = 16
+    Top = 481
+    Width = 73
+    Anchors = [akLeft, akBottom]
+    Caption = 'Save palette...'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 48
+    Height = 17
+    Top = 408
+    Width = 56
+    Anchors = [akTop, akLeft, akBottom]
+    Caption = 'Text color:'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 144
+    Height = 17
+    Top = 408
+    Width = 54
+    Anchors = [akTop, akLeft, akBottom]
+    Caption = 'Startfrom:'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 304
+    Height = 17
+    Top = 408
+    Width = 28
+    Anchors = [akTop, akLeft, akBottom]
+    Caption = 'Data:'
+    ParentColor = False
+  end
+  object Image3: TImage
+    Left = 264
+    Height = 40
+    Top = 480
+    Width = 434
+    Anchors = [akTop, akLeft, akBottom]
+    Transparent = False
+    Visible = False
+  end
+  object RadioButton2: TRadioButton
+    Left = 48
+    Height = 21
+    Top = 641
+    Width = 79
+    Anchors = [akLeft, akBottom]
+    Caption = 'To archive'
+    Checked = True
+    State = cbChecked
+    TabOrder = 0
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 176
+    Height = 23
+    Top = 647
+    Width = 70
+    Anchors = [akLeft, akBottom]
+    OnChange = SpinEdit1Change
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 256
+    Height = 23
+    Top = 647
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Find next'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Button6: TButton
+    Left = 352
+    Height = 23
+    Top = 647
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Backwards'
+    OnClick = Button6Click
+    TabOrder = 3
+  end
+  object ComboBox1: TComboBox
+    AnchorSideRight.Side = asrBottom
+    Left = 566
+    Height = 21
+    Top = 18
+    Width = 132
+    Anchors = [akTop, akRight]
+    AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+    ItemHeight = 13
+    Items.Strings = (
+      'Small Raw'
+      'Large Raw'
+    )
+    MaxLength = 0
+    OnChange = ComboBox1Change
+    Style = csDropDownList
+    TabOrder = 4
+  end
+  object Edit1: TEdit
+    Left = 40
+    Height = 20
+    Top = 66
+    Width = 247
+    OnChange = Edit1Change
+    TabOrder = 5
+    Text = 'Location'
+  end
+  object Button1: TButton
+    AnchorSideRight.Side = asrCenter
+    Left = 671
+    Height = 24
+    Top = 62
+    Width = 27
+    Anchors = [akTop, akRight]
+    BorderSpacing.InnerBorder = 4
+    Caption = '...'
+    OnClick = Button1Click
+    TabOrder = 6
+  end
+  object CheckBox1: TCheckBox
+    Left = 40
+    Height = 21
+    Top = 18
+    Width = 56
+    Caption = 'Dither'
+    Checked = True
+    OnChange = CheckBox1Change
+    State = cbChecked
+    TabOrder = 7
+  end
+  object Button3: TButton
+    Left = 48
+    Height = 25
+    Top = 687
+    Width = 532
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Button3'
+    OnClick = Button3Click
+    TabOrder = 8
+  end
+  object RadioButton1: TRadioButton
+    Left = 48
+    Height = 21
+    Top = 506
+    Width = 57
+    Anchors = [akLeft, akBottom]
+    Caption = 'To file'
+    TabOrder = 9
+  end
+  object Button4: TButton
+    AnchorSideRight.Side = asrCenter
+    Left = 671
+    Height = 24
+    Top = 535
+    Width = 27
+    Anchors = [akRight, akBottom]
+    BorderSpacing.InnerBorder = 4
+    Caption = '...'
+    OnClick = Button4Click
+    TabOrder = 10
+  end
+  object Edit2: TEdit
+    Left = 48
+    Height = 20
+    Top = 539
+    Width = 247
+    Anchors = [akLeft, akBottom]
+    TabOrder = 11
+    Text = 'Location'
+  end
+  object Edit3: TEdit
+    Left = 352
+    Height = 23
+    Top = 408
+    Width = 346
+    Anchors = [akTop, akLeft, akBottom]
+    ReadOnly = True
+    TabOrder = 12
+  end
+  object Button5: TButton
+    Left = 48
+    Height = 24
+    Top = 440
+    Width = 115
+    Anchors = [akTop, akLeft, akBottom]
+    Caption = 'Set none'
+    OnClick = Button5Click
+    TabOrder = 13
+  end
+  object Button7: TButton
+    Left = 192
+    Height = 24
+    Top = 440
+    Width = 115
+    Anchors = [akTop, akLeft, akBottom]
+    Caption = 'LBA1 Standard'
+    OnClick = Button7Click
+    TabOrder = 14
+  end
+  object Button8: TButton
+    Left = 336
+    Height = 24
+    Top = 440
+    Width = 115
+    Anchors = [akTop, akLeft, akBottom]
+    Caption = 'LBA2 alike'
+    OnClick = Button8Click
+    TabOrder = 15
+  end
+  object Edit4: TEdit
+    Left = 224
+    Height = 23
+    Top = 408
+    Width = 64
+    Anchors = [akTop, akLeft, akBottom]
+    ReadOnly = True
+    TabOrder = 16
+    Text = '0'
+  end
+  object BitBtn1: TBitBtn
+    Left = 480
+    Height = 24
+    Hint = 'Custom (unlock):'#10#10'Unlocks the Startfrom and Data fields.'#10#10'It is only intended for advanced users.'#10#10'Be warned that LIC ain''t constructed to handle illegal input'
+    Top = 440
+    Width = 115
+    Anchors = [akTop, akLeft, akBottom]
+    Caption = 'Custom (unlock)'
+    Kind = bkAbort
+    ModalResult = 3
+    NumGlyphs = 0
+    OnClick = BitBtn1Click
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 17
+  end
+  object Button9: TButton
+    Left = 168
+    Height = 24
+    Top = 480
+    Width = 88
+    Anchors = [akTop, akLeft, akBottom]
+    Caption = 'TxtClrPreview'
+    OnClick = Button9Click
+    TabOrder = 18
+    Visible = False
+  end
+  object OpenPictureDialog1: TOpenPictureDialog
+    Filter = 'Graphic (*.jpeg;*.jpg;*.ico;*.ppm;*.pgm;*.pbm;*.png;*.xpm;*.bmp)|*.jpeg;*.jpg;*.ico;*.ppm;*.pgm;*.pbm;*.png;*.xpm;*.bmp|JPEG Image File (*.jpeg)|*.jpeg|JPEG Image File (*.jpg)|*.jpg|Icon (*.ico)|*.ico|Portable PixMap (*.ppm)|*.ppm|Portable GrayMap (*.pgm)'
+    FilterIndex = 0
+  end
+  object ColorDialog1: TColorDialog
+    top = 24
+  end
+end

@@ -1,0 +1,335 @@
+object OldSchoolForm: TOldSchoolForm
+  Left = 693
+  Height = 401
+  Top = 177
+  Width = 557
+  HorzScrollBar.Page = 556
+  VertScrollBar.Page = 400
+  ActiveControl = EditLoadEgenImage
+  Caption = 'OldSchool Editor'
+  ClientHeight = 401
+  ClientWidth = 557
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnCreate = FormCreate
+  object PageControl2: TPageControl
+    Left = 72
+    Height = 349
+    Top = 32
+    Width = 417
+    ActivePage = TabSheet4
+    TabIndex = 1
+    TabOrder = 0
+    object TabSheet3: TTabSheet
+      Caption = 'Images, using the MAIN palette'
+      ClientHeight = 349
+      ClientWidth = 417
+      object Label17: TLabel
+        Left = 16
+        Height = 16
+        Top = 8
+        Width = 79
+        Caption = 'Localize Image'
+        ParentColor = False
+      end
+      object Label18: TLabel
+        Left = 16
+        Height = 16
+        Top = 240
+        Width = 87
+        Caption = 'Save destination'
+        ParentColor = False
+      end
+      object Label19: TLabel
+        Left = 16
+        Height = 16
+        Top = 96
+        Width = 287
+        Caption = 'Palette Load destination (Required if custom choosen)'
+        ParentColor = False
+      end
+      object Button3: TButton
+        Left = 152
+        Height = 25
+        Top = 288
+        Width = 97
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Create the file'
+        OnClick = Button3Click
+        TabOrder = 0
+      end
+      object Button6: TButton
+        Left = 368
+        Height = 25
+        Hint = 'This is one for BMP files only (it has a preview box)'
+        Top = 24
+        Width = 27
+        BorderSpacing.InnerBorder = 4
+        Caption = '...'
+        OnClick = Button6Click
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 1
+      end
+      object EditLoadMainPalette: TEdit
+        Left = 16
+        Height = 21
+        Top = 112
+        Width = 345
+        TabOrder = 2
+        Text = 'Palette path'
+      end
+      object EditSaveMainImage: TEdit
+        Left = 16
+        Height = 21
+        Top = 256
+        Width = 345
+        TabOrder = 3
+        Text = 'Path'
+      end
+      object EditLoadMainImage: TEdit
+        Left = 16
+        Height = 21
+        Top = 24
+        Width = 345
+        TabOrder = 4
+        Text = 'Path'
+      end
+      object Button7: TButton
+        Left = 368
+        Height = 25
+        Top = 112
+        Width = 27
+        BorderSpacing.InnerBorder = 4
+        Caption = '...'
+        OnClick = Button7Click
+        TabOrder = 5
+      end
+      object Button8: TButton
+        Left = 368
+        Height = 25
+        Top = 256
+        Width = 27
+        BorderSpacing.InnerBorder = 4
+        Caption = '...'
+        OnClick = Button8Click
+        TabOrder = 6
+      end
+      object RadioGroup1: TRadioGroup
+        Left = 16
+        Height = 81
+        Top = 144
+        Width = 353
+        AutoFill = True
+        Caption = 'Force this type to the image:'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 2
+        ClientHeight = 81
+        ClientWidth = 353
+        Columns = 2
+        ItemIndex = 0
+        Items.Strings = (
+          'Sprite (non-raw)'
+          'SpriteRaw'
+          '640*480'
+          '512*256'
+          '256*256'
+        )
+        TabOrder = 7
+      end
+      object RadioGroup2: TRadioGroup
+        Left = 16
+        Height = 33
+        Top = 56
+        Width = 345
+        AutoFill = True
+        Caption = 'Palette'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 3
+        ClientHeight = 33
+        ClientWidth = 345
+        Columns = 3
+        ItemIndex = 0
+        Items.Strings = (
+          'LBA 1'
+          'LBA 2'
+          'Custom'
+        )
+        TabOrder = 8
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'Images, using their own palette (fullscreen)'
+      ClientHeight = 315
+      ClientWidth = 413
+      ImageIndex = 1
+      object Label13: TLabel
+        Left = 16
+        Height = 17
+        Top = 8
+        Width = 383
+        Caption = 'Most images are 640*480, LBA1 holomap is 256*256'
+        ParentColor = False
+      end
+      object Label14: TLabel
+        Left = 16
+        Height = 17
+        Top = 90
+        Width = 109
+        Caption = 'Localize Image'
+        ParentColor = False
+      end
+      object Label15: TLabel
+        Left = 18
+        Height = 17
+        Top = 154
+        Width = 121
+        Caption = 'Save destination'
+        ParentColor = False
+      end
+      object Label16: TLabel
+        Left = 16
+        Height = 17
+        Top = 210
+        Width = 308
+        Caption = 'Palette Save destination (Required aswell)'
+        ParentColor = False
+      end
+      object EditLoadEgenImage: TEdit
+        Left = 16
+        Height = 21
+        Top = 114
+        Width = 345
+        TabOrder = 0
+        Text = 'Path'
+      end
+      object EditSaveEgenImage: TEdit
+        Left = 16
+        Height = 21
+        Top = 178
+        Width = 345
+        TabOrder = 1
+        Text = 'Path'
+      end
+      object EditSaveEgenPalette: TEdit
+        Left = 16
+        Height = 21
+        Top = 234
+        Width = 345
+        TabOrder = 2
+        Text = 'Palette path'
+      end
+      object Button1: TButton
+        Left = 368
+        Height = 25
+        Hint = 'This is one for BMP files only (it has a preview box)'
+        Top = 114
+        Width = 27
+        BorderSpacing.InnerBorder = 4
+        Caption = '...'
+        OnClick = Button1Click
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 3
+      end
+      object Button4: TButton
+        Left = 368
+        Height = 25
+        Top = 178
+        Width = 27
+        BorderSpacing.InnerBorder = 4
+        Caption = '...'
+        OnClick = Button4Click
+        TabOrder = 4
+      end
+      object Button5: TButton
+        Left = 368
+        Height = 25
+        Top = 234
+        Width = 27
+        BorderSpacing.InnerBorder = 4
+        Caption = '...'
+        OnClick = Button5Click
+        TabOrder = 5
+      end
+      object Button2: TButton
+        Left = 152
+        Height = 25
+        Top = 288
+        Width = 97
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Create the files'
+        OnClick = Button2Click
+        TabOrder = 6
+      end
+      object RadioGroup3: TRadioGroup
+        Left = 18
+        Height = 49
+        Top = 33
+        Width = 355
+        AutoFill = True
+        Caption = 'Select Size:'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 3
+        ClientHeight = 28
+        ClientWidth = 351
+        Columns = 3
+        ItemIndex = 0
+        Items.Strings = (
+          '640*480'
+          '512*256 (doesn''t exist?)'
+          '256*256 (rare)'
+        )
+        TabOrder = 7
+      end
+    end
+  end
+  object CheckBox1: TCheckBox
+    Left = 96
+    Height = 24
+    Top = 16
+    Width = 67
+    Caption = 'Dither'
+    Checked = True
+    State = cbChecked
+    TabOrder = 1
+  end
+  object OpenPictureDialog1: TOpenPictureDialog
+    Title = 'Open existing file'
+    Filter = 'Graphic (*.jpeg;*.jpg;*.ico;*.ppm;*.pgm;*.pbm;*.png;*.xpm;*.bmp)|*.jpeg;*.jpg;*.ico;*.ppm;*.pgm;*.pbm;*.png;*.xpm;*.bmp|JPEG Image File (*.jpeg)|*.jpeg|JPEG Image File (*.jpg)|*.jpg|Icon (*.ico)|*.ico|Portable PixMap (*.ppm)|*.ppm|Portable GrayMap (*.pgm)'
+    FilterIndex = 0
+    left = 288
+    top = 24
+  end
+  object SaveDialog1: TSaveDialog
+    Title = 'Save file as'
+    FilterIndex = 0
+    left = 240
+    top = 24
+  end
+  object OpenDialog1: TOpenDialog
+    Title = 'Open existing file'
+    DefaultExt = '.*.pal*'
+    FilterIndex = 0
+    left = 264
+    top = 24
+  end
+end

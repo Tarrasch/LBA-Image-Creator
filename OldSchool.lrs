@@ -1,0 +1,101 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TOldSchoolForm','FORMDATA',[
+  'TPF0'#14'TOldSchoolForm'#13'OldSchoolForm'#4'Left'#3#181#2#6'Height'#3#145#1
+  +#3'Top'#3#177#0#5'Width'#3'-'#2#18'HorzScrollBar.Page'#3','#2#18'VertScrollB'
+  +'ar.Page'#3#144#1#13'ActiveControl'#7#17'EditLoadEgenImage'#7'Caption'#6#16
+  +'OldSchool Editor'#12'ClientHeight'#3#145#1#11'ClientWidth'#3'-'#2#11'Font.H'
+  +'eight'#2#245#9'Font.Name'#6#6'Tahoma'#8'OnCreate'#7#10'FormCreate'#0#12'TPa'
+  +'geControl'#12'PageControl2'#4'Left'#2'H'#6'Height'#3']'#1#3'Top'#2' '#5'Wid'
+  +'th'#3#161#1#10'ActivePage'#7#9'TabSheet4'#8'TabIndex'#2#1#8'TabOrder'#2#0#0
+  +#9'TTabSheet'#9'TabSheet3'#7'Caption'#6#30'Images, using the MAIN palette'#12
+  +'ClientHeight'#3']'#1#11'ClientWidth'#3#161#1#0#6'TLabel'#7'Label17'#4'Left'
+  +#2#16#6'Height'#2#16#3'Top'#2#8#5'Width'#2'O'#7'Caption'#6#14'Localize Image'
+  +#11'ParentColor'#8#0#0#6'TLabel'#7'Label18'#4'Left'#2#16#6'Height'#2#16#3'To'
+  +'p'#3#240#0#5'Width'#2'W'#7'Caption'#6#16'Save destination'#11'ParentColor'#8
+  +#0#0#6'TLabel'#7'Label19'#4'Left'#2#16#6'Height'#2#16#3'Top'#2'`'#5'Width'#3
+  +#31#1#7'Caption'#6'5Palette Load destination (Required if custom choosen)'#11
+  +'ParentColor'#8#0#0#7'TButton'#7'Button3'#4'Left'#3#152#0#6'Height'#2#25#3'T'
+  +'op'#3' '#1#5'Width'#2'a'#25'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#15
+  +'Create the file'#7'OnClick'#7#12'Button3Click'#8'TabOrder'#2#0#0#0#7'TButto'
+  +'n'#7'Button6'#4'Left'#3'p'#1#6'Height'#2#25#4'Hint'#6'5This is one for BMP '
+  +'files only (it has a preview box)'#3'Top'#2#24#5'Width'#2#27#25'BorderSpaci'
+  +'ng.InnerBorder'#2#4#7'Caption'#6#3'...'#7'OnClick'#7#12'Button6Click'#14'Pa'
+  +'rentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#1#0#0#5'TEdit'#19'EditLoadMainP'
+  +'alette'#4'Left'#2#16#6'Height'#2#21#3'Top'#2'p'#5'Width'#3'Y'#1#8'TabOrder'
+  +#2#2#4'Text'#6#12'Palette path'#0#0#5'TEdit'#17'EditSaveMainImage'#4'Left'#2
+  +#16#6'Height'#2#21#3'Top'#3#0#1#5'Width'#3'Y'#1#8'TabOrder'#2#3#4'Text'#6#4
+  +'Path'#0#0#5'TEdit'#17'EditLoadMainImage'#4'Left'#2#16#6'Height'#2#21#3'Top'
+  +#2#24#5'Width'#3'Y'#1#8'TabOrder'#2#4#4'Text'#6#4'Path'#0#0#7'TButton'#7'But'
+  +'ton7'#4'Left'#3'p'#1#6'Height'#2#25#3'Top'#2'p'#5'Width'#2#27#25'BorderSpac'
+  +'ing.InnerBorder'#2#4#7'Caption'#6#3'...'#7'OnClick'#7#12'Button7Click'#8'Ta'
+  +'bOrder'#2#5#0#0#7'TButton'#7'Button8'#4'Left'#3'p'#1#6'Height'#2#25#3'Top'#3
+  +#0#1#5'Width'#2#27#25'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#3'...'#7'O'
+  +'nClick'#7#12'Button8Click'#8'TabOrder'#2#6#0#0#11'TRadioGroup'#11'RadioGrou'
+  +'p1'#4'Left'#2#16#6'Height'#2'Q'#3'Top'#3#144#0#5'Width'#3'a'#1#8'AutoFill'#9
+  +#7'Caption'#6#29'Force this type to the image:'#28'ChildSizing.LeftRightSpac'
+  +'ing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizon'
+  +'tal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'cr'
+  +'sHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChild'
+  +'s'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layou'
+  +'t'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#2
+  +#12'ClientHeight'#2'Q'#11'ClientWidth'#3'a'#1#7'Columns'#2#2#9'ItemIndex'#2#0
+  +#13'Items.Strings'#1#6#16'Sprite (non-raw)'#6#9'SpriteRaw'#6#7'640*480'#6#7
+  +'512*256'#6#7'256*256'#0#8'TabOrder'#2#7#0#0#11'TRadioGroup'#11'RadioGroup2'
+  +#4'Left'#2#16#6'Height'#2'!'#3'Top'#2'8'#5'Width'#3'Y'#1#8'AutoFill'#9#7'Cap'
+  +'tion'#6#7'Palette'#28'ChildSizing.LeftRightSpacing'#2#6#28'ChildSizing.TopB'
+  +'ottomSpacing'#2#6#29'ChildSizing.EnlargeHorizontal'#7#24'crsHomogenousChild'
+  +'Resize'#27'ChildSizing.EnlargeVertical'#7#24'crsHomogenousChildResize'#28'C'
+  +'hildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSizing.ShrinkVert'
+  +'ical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLeftToRightThenTo'
+  +'pToBottom'#27'ChildSizing.ControlsPerLine'#2#3#12'ClientHeight'#2'!'#11'Cli'
+  +'entWidth'#3'Y'#1#7'Columns'#2#3#9'ItemIndex'#2#0#13'Items.Strings'#1#6#5'LB'
+  +'A 1'#6#5'LBA 2'#6#6'Custom'#0#8'TabOrder'#2#8#0#0#0#9'TTabSheet'#9'TabSheet'
+  +'4'#7'Caption'#6',Images, using their own palette (fullscreen)'#12'ClientHei'
+  +'ght'#3';'#1#11'ClientWidth'#3#157#1#10'ImageIndex'#2#1#0#6'TLabel'#7'Label1'
+  +'3'#4'Left'#2#16#6'Height'#2#17#3'Top'#2#8#5'Width'#3''#1#7'Caption'#6'0Mos'
+  +'t images are 640*480, LBA1 holomap is 256*256'#11'ParentColor'#8#0#0#6'TLab'
+  +'el'#7'Label14'#4'Left'#2#16#6'Height'#2#17#3'Top'#2'Z'#5'Width'#2'm'#7'Capt'
+  +'ion'#6#14'Localize Image'#11'ParentColor'#8#0#0#6'TLabel'#7'Label15'#4'Left'
+  +#2#18#6'Height'#2#17#3'Top'#3#154#0#5'Width'#2'y'#7'Caption'#6#16'Save desti'
+  +'nation'#11'ParentColor'#8#0#0#6'TLabel'#7'Label16'#4'Left'#2#16#6'Height'#2
+  +#17#3'Top'#3#210#0#5'Width'#3'4'#1#7'Caption'#6'*Palette Save destination (R'
+  +'equired aswell)'#11'ParentColor'#8#0#0#5'TEdit'#17'EditLoadEgenImage'#4'Lef'
+  +'t'#2#16#6'Height'#2#21#3'Top'#2'r'#5'Width'#3'Y'#1#8'TabOrder'#2#0#4'Text'#6
+  +#4'Path'#0#0#5'TEdit'#17'EditSaveEgenImage'#4'Left'#2#16#6'Height'#2#21#3'To'
+  +'p'#3#178#0#5'Width'#3'Y'#1#8'TabOrder'#2#1#4'Text'#6#4'Path'#0#0#5'TEdit'#19
+  +'EditSaveEgenPalette'#4'Left'#2#16#6'Height'#2#21#3'Top'#3#234#0#5'Width'#3
+  ,'Y'#1#8'TabOrder'#2#2#4'Text'#6#12'Palette path'#0#0#7'TButton'#7'Button1'#4
+  +'Left'#3'p'#1#6'Height'#2#25#4'Hint'#6'5This is one for BMP files only (it h'
+  +'as a preview box)'#3'Top'#2'r'#5'Width'#2#27#25'BorderSpacing.InnerBorder'#2
+  +#4#7'Caption'#6#3'...'#7'OnClick'#7#12'Button1Click'#14'ParentShowHint'#8#8
+  +'ShowHint'#9#8'TabOrder'#2#3#0#0#7'TButton'#7'Button4'#4'Left'#3'p'#1#6'Heig'
+  +'ht'#2#25#3'Top'#3#178#0#5'Width'#2#27#25'BorderSpacing.InnerBorder'#2#4#7'C'
+  +'aption'#6#3'...'#7'OnClick'#7#12'Button4Click'#8'TabOrder'#2#4#0#0#7'TButto'
+  +'n'#7'Button5'#4'Left'#3'p'#1#6'Height'#2#25#3'Top'#3#234#0#5'Width'#2#27#25
+  +'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#3'...'#7'OnClick'#7#12'Button5C'
+  +'lick'#8'TabOrder'#2#5#0#0#7'TButton'#7'Button2'#4'Left'#3#152#0#6'Height'#2
+  +#25#3'Top'#3' '#1#5'Width'#2'a'#25'BorderSpacing.InnerBorder'#2#4#7'Caption'
+  +#6#16'Create the files'#7'OnClick'#7#12'Button2Click'#8'TabOrder'#2#6#0#0#11
+  +'TRadioGroup'#11'RadioGroup3'#4'Left'#2#18#6'Height'#2'1'#3'Top'#2'!'#5'Widt'
+  +'h'#3'c'#1#8'AutoFill'#9#7'Caption'#6#12'Select Size:'#28'ChildSizing.LeftRi'
+  +'ghtSpacing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.Enlarge'
+  +'Horizontal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7
+  +#24'crsHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScale'
+  +'Childs'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.'
+  +'Layout'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'
+  +#2#3#12'ClientHeight'#2#28#11'ClientWidth'#3'_'#1#7'Columns'#2#3#9'ItemIndex'
+  +#2#0#13'Items.Strings'#1#6#7'640*480'#6#24'512*256 (doesn''t exist?)'#6#14'2'
+  +'56*256 (rare)'#0#8'TabOrder'#2#7#0#0#0#0#9'TCheckBox'#9'CheckBox1'#4'Left'#2
+  +'`'#6'Height'#2#24#3'Top'#2#16#5'Width'#2'C'#7'Caption'#6#6'Dither'#7'Checke'
+  +'d'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#1#0#0#18'TOpenPictureDialog'#18
+  +'OpenPictureDialog1'#5'Title'#6#18'Open existing file'#6'Filter'#6#255'Graph'
+  +'ic (*.jpeg;*.jpg;*.ico;*.ppm;*.pgm;*.pbm;*.png;*.xpm;*.bmp)|*.jpeg;*.jpg;*.'
+  +'ico;*.ppm;*.pgm;*.pbm;*.png;*.xpm;*.bmp|JPEG Image File (*.jpeg)|*.jpeg|JPE'
+  +'G Image File (*.jpg)|*.jpg|Icon (*.ico)|*.ico|Portable PixMap (*.ppm)|*.ppm'
+  +'|Portable GrayMap (*.pgm)'#11'FilterIndex'#2#0#4'left'#3' '#1#3'top'#2#24#0
+  +#0#11'TSaveDialog'#11'SaveDialog1'#5'Title'#6#12'Save file as'#11'FilterInde'
+  +'x'#2#0#4'left'#3#240#0#3'top'#2#24#0#0#11'TOpenDialog'#11'OpenDialog1'#5'Ti'
+  +'tle'#6#18'Open existing file'#10'DefaultExt'#6#7'.*.pal*'#11'FilterIndex'#2
+  +#0#4'left'#3#8#1#3'top'#2#24#0#0#0
+]);

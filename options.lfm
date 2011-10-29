@@ -1,0 +1,91 @@
+object OptionsForm: TOptionsForm
+  Left = 718
+  Height = 389
+  Top = 351
+  Width = 466
+  HorzScrollBar.Page = 465
+  VertScrollBar.Page = 388
+  ActiveControl = ToggleBox1
+  Caption = 'Options'
+  ClientHeight = 389
+  ClientWidth = 466
+  object GroupBox1: TGroupBox
+    Left = 16
+    Height = 64
+    Top = 16
+    Width = 434
+    Caption = 'Auto Save options'
+    ClientHeight = 43
+    ClientWidth = 430
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 158
+      Height = 17
+      Top = 19
+      Width = 118
+      Caption = 'Auto save every'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 310
+      Height = 17
+      Top = 19
+      Width = 56
+      Caption = 'Second'
+      ParentColor = False
+    end
+    object ToggleBox1: TToggleBox
+      Left = 7
+      Height = 26
+      Top = 10
+      Width = 119
+      Caption = 'Auto Save activated'
+      TabOrder = 0
+    end
+    object Edit1: TEdit
+      Left = 254
+      Height = 22
+      Top = 13
+      Width = 48
+      ReadOnly = True
+      TabOrder = 1
+      Text = '150'
+    end
+    object Button1: TButton
+      Left = 366
+      Height = 25
+      Top = 10
+      Width = 56
+      BorderSpacing.InnerBorder = 4
+      Caption = 'Set'
+      OnClick = Button1Click
+      TabOrder = 2
+    end
+  end
+  object CheckBox1: TCheckBox
+    Left = 16
+    Height = 24
+    Top = 96
+    Width = 218
+    Caption = 'Autosave at close program'
+    Checked = True
+    State = cbChecked
+    TabOrder = 1
+  end
+  object StatusBar1: TStatusBar
+    Height = 24
+    Top = 365
+    Width = 466
+    Panels = <>
+  end
+  object CheckBox2: TCheckBox
+    Left = 16
+    Height = 24
+    Top = 128
+    Width = 515
+    Caption = 'Auto-overwrite a recovery project every 30 seconds (recommended)'
+    Checked = True
+    State = cbChecked
+    TabOrder = 2
+  end
+end

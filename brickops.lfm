@@ -1,0 +1,156 @@
+object Form4: TForm4
+  Left = 850
+  Height = 358
+  Top = 446
+  Width = 214
+  HorzScrollBar.Page = 213
+  VertScrollBar.Page = 357
+  ActiveControl = cbFrontF
+  Caption = 'Form4'
+  ClientHeight = 358
+  ClientWidth = 214
+  OnKeyPress = FormKeyPress
+  object Label4: TLabel
+    Left = 8
+    Height = 17
+    Top = 16
+    Width = 142
+    Caption = 'Front frame colour.:'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 17
+    Top = 72
+    Width = 140
+    Caption = 'Back frame colour.:'
+    ParentColor = False
+  end
+  object cbFrontF: TCheckBox
+    Left = 9
+    Height = 24
+    Top = 144
+    Width = 109
+    Caption = 'Front frame'
+    Checked = True
+    OnChange = cbFrontFChange
+    State = cbChecked
+    TabOrder = 0
+  end
+  object cbAddF: TCheckBox
+    Left = 9
+    Height = 24
+    Top = 192
+    Width = 112
+    Caption = 'Add. frames'
+    Checked = True
+    OnChange = cbAddFChange
+    State = cbChecked
+    TabOrder = 1
+  end
+  object cbCoverBack: TCheckBox
+    Left = 9
+    Height = 24
+    Top = 216
+    Width = 143
+    Caption = 'Brick covers b.f. '
+    Checked = True
+    OnChange = cbCoverBackChange
+    State = cbChecked
+    TabOrder = 2
+  end
+  object cbBackF: TCheckBox
+    Left = 9
+    Height = 24
+    Top = 168
+    Width = 107
+    Caption = 'Back frame'
+    Checked = True
+    OnChange = cbBackFChange
+    State = cbChecked
+    TabOrder = 3
+  end
+  object cbGrid: TCheckBox
+    Left = 9
+    Height = 24
+    Top = 120
+    Width = 115
+    Caption = 'grid (Ctrl+G)'
+    OnChange = cbGridChange
+    TabOrder = 4
+  end
+  object cbFrontC: TColorBox
+    Left = 9
+    Height = 24
+    Top = 40
+    Width = 100
+    AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+    Color = clRed
+    ItemIndex = 9
+    Items.Strings = (
+      'clBlack'
+      'clMaroon'
+      'clGreen'
+      'clOlive'
+      'clNavy'
+      'clPurple'
+      'clTeal'
+      'clGray'
+      'clSilver'
+      'clRed'
+      'clLime'
+      'clYellow'
+      'clBlue'
+      'clFuchsia'
+      'clAqua'
+      'clSilver'
+      'clGray'
+      'clWhite'
+      'clCream'
+      'clNone'
+      'clDefault'
+    )
+    MaxLength = 0
+    Selected = clRed
+    TabOrder = 5
+    Text = 'clRed'
+    OnChange = cbFrontCChange
+  end
+  object cbBackC: TColorBox
+    Left = 9
+    Height = 24
+    Top = 88
+    Width = 100
+    AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+    Color = clNavy
+    ItemIndex = 4
+    Items.Strings = (
+      'clBlack'
+      'clMaroon'
+      'clGreen'
+      'clOlive'
+      'clNavy'
+      'clPurple'
+      'clTeal'
+      'clGray'
+      'clSilver'
+      'clRed'
+      'clLime'
+      'clYellow'
+      'clBlue'
+      'clFuchsia'
+      'clAqua'
+      'clSilver'
+      'clGray'
+      'clWhite'
+      'clCream'
+      'clNone'
+      'clDefault'
+    )
+    MaxLength = 0
+    Selected = clNavy
+    TabOrder = 6
+    Text = 'clNavy'
+    OnChange = cbBackCChange
+  end
+end

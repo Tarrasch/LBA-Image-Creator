@@ -1,0 +1,235 @@
+object TypeEditForm: TTypeEditForm
+  Left = 703
+  Height = 590
+  Top = 267
+  Width = 425
+  HorzScrollBar.Page = 424
+  VertScrollBar.Page = 589
+  ActiveControl = Button3
+  Caption = 'Type Editor'
+  KeyPreview = True
+  OnActivate = FormActivate
+  OnKeyPress = FormKeyPress
+  object Label2: TLabel
+    Left = 288
+    Height = 16
+    Top = 385
+    Width = 7
+    Caption = '..'
+    Color = clNone
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 16
+    Top = 312
+    Width = 41
+    Caption = 'Apply...'
+    Color = clNone
+    ParentColor = False
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 16
+    Top = 24
+    Width = 35
+    Caption = 'Label1'
+    Color = clNone
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 24
+    Height = 16
+    Top = 240
+    Width = 296
+    Caption = 'If you have for exampel mixed image types in an archive'
+    Color = clNone
+    ParentColor = False
+  end
+  object Bevel1: TBevel
+    Left = 8
+    Height = 90
+    Top = 482
+    Width = 367
+  end
+  object Label5: TLabel
+    Left = 16
+    Height = 16
+    Top = 504
+    Width = 35
+    Caption = 'Label5'
+    Color = clNone
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 16
+    Top = 520
+    Width = 35
+    Caption = 'Label6'
+    Color = clNone
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 16
+    Height = 16
+    Top = 536
+    Width = 35
+    Caption = 'Label7'
+    Color = clNone
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 16
+    Height = 16
+    Top = 552
+    Width = 35
+    Caption = 'Label8'
+    Color = clNone
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 192
+    Height = 16
+    Top = 504
+    Width = 35
+    Caption = 'Label9'
+    Color = clNone
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 192
+    Height = 16
+    Top = 520
+    Width = 41
+    Caption = 'Label10'
+    Color = clNone
+    ParentColor = False
+  end
+  object Label11: TLabel
+    Left = 192
+    Height = 16
+    Top = 536
+    Width = 41
+    Caption = 'Label11'
+    Color = clNone
+    ParentColor = False
+  end
+  object Label12: TLabel
+    Left = 192
+    Height = 16
+    Top = 552
+    Width = 41
+    Caption = 'Label12'
+    Color = clNone
+    ParentColor = False
+  end
+  object Label13: TLabel
+    Left = 16
+    Height = 16
+    Top = 488
+    Width = 41
+    Caption = 'Label13'
+    Color = clNone
+    ParentColor = False
+  end
+  object Button3: TButton
+    Left = 8
+    Height = 25
+    Top = 336
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'To Button3'
+    OnClick = Button3Click
+    TabOrder = 0
+  end
+  object Button4: TButton
+    Left = 8
+    Height = 25
+    Top = 376
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'To All'
+    OnClick = Button4Click
+    TabOrder = 1
+  end
+  object Button5: TButton
+    Left = 216
+    Height = 25
+    Top = 336
+    Width = 75
+    BorderSpacing.InnerBorder = 4
+    Caption = 'To interval'
+    OnClick = Button5Click
+    TabOrder = 2
+  end
+  object SpinEdit2: TSpinEdit
+    Left = 216
+    Height = 25
+    Top = 376
+    Width = 64
+    TabOrder = 3
+  end
+  object SpinEdit3: TSpinEdit
+    Left = 311
+    Height = 25
+    Top = 376
+    Width = 64
+    TabOrder = 4
+  end
+  object ComboBox1: TComboBox
+    Left = 24
+    Height = 21
+    Top = 112
+    Width = 100
+    AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+    ItemIndex = 0
+    Items.Strings = (
+      'Spriraw'
+      'Sprite'
+      'Raw Image'
+      'Brick'
+      'Raw Data'
+    )
+    MaxLength = 0
+    Style = csDropDownList
+    TabOrder = 5
+    Text = 'Spriraw'
+  end
+  object RadioButton1: TRadioButton
+    Left = 8
+    Height = 15
+    Top = 80
+    Width = 159
+    Caption = 'Manually set these properties'
+    TabOrder = 6
+  end
+  object CheckBox1: TCheckBox
+    Left = 24
+    Height = 15
+    Top = 152
+    Width = 196
+    Caption = 'Only apply to RawData/Other entries'
+    TabOrder = 7
+  end
+  object RadioButton2: TRadioButton
+    Left = 8
+    Height = 15
+    Top = 208
+    Width = 204
+    Caption = 'Automatically try to put correct values'
+    Checked = True
+    State = cbChecked
+    TabOrder = 8
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 448
+    Width = 96
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Calculate statistics'
+    OnClick = Button1Click
+    TabOrder = 9
+  end
+end

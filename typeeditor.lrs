@@ -1,0 +1,59 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TTypeEditForm','FORMDATA',[
+  'TPF0'#13'TTypeEditForm'#12'TypeEditForm'#4'Left'#3#191#2#6'Height'#3'N'#2#3
+  +'Top'#3#11#1#5'Width'#3#169#1#18'HorzScrollBar.Page'#3#168#1#18'VertScrollBa'
+  +'r.Page'#3'M'#2#13'ActiveControl'#7#7'Button3'#7'Caption'#6#11'Type Editor'
+  +#10'KeyPreview'#9#10'OnActivate'#7#12'FormActivate'#10'OnKeyPress'#7#12'Form'
+  +'KeyPress'#0#6'TLabel'#6'Label2'#4'Left'#3' '#1#6'Height'#2#16#3'Top'#3#129#1
+  +#5'Width'#2#7#7'Caption'#6#2'..'#5'Color'#7#6'clNone'#11'ParentColor'#8#0#0#6
+  +'TLabel'#6'Label3'#4'Left'#2#8#6'Height'#2#16#3'Top'#3'8'#1#5'Width'#2')'#7
+  +'Caption'#6#8'Apply...'#5'Color'#7#6'clNone'#11'ParentColor'#8#0#0#6'TLabel'
+  +#6'Label1'#4'Left'#2#8#6'Height'#2#16#3'Top'#2#24#5'Width'#2'#'#7'Caption'#6
+  +#6'Label1'#5'Color'#7#6'clNone'#11'ParentColor'#8#0#0#6'TLabel'#6'Label4'#4
+  +'Left'#2#24#6'Height'#2#16#3'Top'#3#240#0#5'Width'#3'('#1#7'Caption'#6'8If y'
+  +'ou have for exampel mixed image types in an archive'#5'Color'#7#6'clNone'
+  +#11'ParentColor'#8#0#0#6'TBevel'#6'Bevel1'#4'Left'#2#8#6'Height'#2'Z'#3'Top'
+  +#3#226#1#5'Width'#3'o'#1#0#0#6'TLabel'#6'Label5'#4'Left'#2#16#6'Height'#2#16
+  +#3'Top'#3#248#1#5'Width'#2'#'#7'Caption'#6#6'Label5'#5'Color'#7#6'clNone'#11
+  +'ParentColor'#8#0#0#6'TLabel'#6'Label6'#4'Left'#2#16#6'Height'#2#16#3'Top'#3
+  +#8#2#5'Width'#2'#'#7'Caption'#6#6'Label6'#5'Color'#7#6'clNone'#11'ParentColo'
+  +'r'#8#0#0#6'TLabel'#6'Label7'#4'Left'#2#16#6'Height'#2#16#3'Top'#3#24#2#5'Wi'
+  +'dth'#2'#'#7'Caption'#6#6'Label7'#5'Color'#7#6'clNone'#11'ParentColor'#8#0#0
+  +#6'TLabel'#6'Label8'#4'Left'#2#16#6'Height'#2#16#3'Top'#3'('#2#5'Width'#2'#'
+  +#7'Caption'#6#6'Label8'#5'Color'#7#6'clNone'#11'ParentColor'#8#0#0#6'TLabel'
+  +#6'Label9'#4'Left'#3#192#0#6'Height'#2#16#3'Top'#3#248#1#5'Width'#2'#'#7'Cap'
+  +'tion'#6#6'Label9'#5'Color'#7#6'clNone'#11'ParentColor'#8#0#0#6'TLabel'#7'La'
+  +'bel10'#4'Left'#3#192#0#6'Height'#2#16#3'Top'#3#8#2#5'Width'#2')'#7'Caption'
+  +#6#7'Label10'#5'Color'#7#6'clNone'#11'ParentColor'#8#0#0#6'TLabel'#7'Label11'
+  +#4'Left'#3#192#0#6'Height'#2#16#3'Top'#3#24#2#5'Width'#2')'#7'Caption'#6#7'L'
+  +'abel11'#5'Color'#7#6'clNone'#11'ParentColor'#8#0#0#6'TLabel'#7'Label12'#4'L'
+  +'eft'#3#192#0#6'Height'#2#16#3'Top'#3'('#2#5'Width'#2')'#7'Caption'#6#7'Labe'
+  +'l12'#5'Color'#7#6'clNone'#11'ParentColor'#8#0#0#6'TLabel'#7'Label13'#4'Left'
+  +#2#16#6'Height'#2#16#3'Top'#3#232#1#5'Width'#2')'#7'Caption'#6#7'Label13'#5
+  +'Color'#7#6'clNone'#11'ParentColor'#8#0#0#7'TButton'#7'Button3'#4'Left'#2#8#6
+  +'Height'#2#25#3'Top'#3'P'#1#5'Width'#2'K'#25'BorderSpacing.InnerBorder'#2#4#7
+  +'Caption'#6#10'To Button3'#7'OnClick'#7#12'Button3Click'#8'TabOrder'#2#0#0#0
+  +#7'TButton'#7'Button4'#4'Left'#2#8#6'Height'#2#25#3'Top'#3'x'#1#5'Width'#2'K'
+  +#25'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#6'To All'#7'OnClick'#7#12'Bu'
+  +'tton4Click'#8'TabOrder'#2#1#0#0#7'TButton'#7'Button5'#4'Left'#3#216#0#6'Hei'
+  +'ght'#2#25#3'Top'#3'P'#1#5'Width'#2'K'#25'BorderSpacing.InnerBorder'#2#4#7'C'
+  +'aption'#6#11'To interval'#7'OnClick'#7#12'Button5Click'#8'TabOrder'#2#2#0#0
+  +#9'TSpinEdit'#9'SpinEdit2'#4'Left'#3#216#0#6'Height'#2#25#3'Top'#3'x'#1#5'Wi'
+  +'dth'#2'@'#8'TabOrder'#2#3#0#0#9'TSpinEdit'#9'SpinEdit3'#4'Left'#3'7'#1#6'He'
+  +'ight'#2#25#3'Top'#3'x'#1#5'Width'#2'@'#8'TabOrder'#2#4#0#0#9'TComboBox'#9'C'
+  +'omboBox1'#4'Left'#2#24#6'Height'#2#21#3'Top'#2'p'#5'Width'#2'd'#16'AutoComp'
+  +'leteText'#11#22'cbactEndOfLineComplete'#20'cbactSearchAscending'#0#9'ItemIn'
+  +'dex'#2#0#13'Items.Strings'#1#6#7'Spriraw'#6#6'Sprite'#6#9'Raw Image'#6#5'Br'
+  +'ick'#6#8'Raw Data'#0#9'MaxLength'#2#0#5'Style'#7#14'csDropDownList'#8'TabOr'
+  +'der'#2#5#4'Text'#6#7'Spriraw'#0#0#12'TRadioButton'#12'RadioButton1'#4'Left'
+  +#2#8#6'Height'#2#15#3'Top'#2'P'#5'Width'#3#159#0#7'Caption'#6#29'Manually se'
+  +'t these properties'#8'TabOrder'#2#6#0#0#9'TCheckBox'#9'CheckBox1'#4'Left'#2
+  +#24#6'Height'#2#15#3'Top'#3#152#0#5'Width'#3#196#0#7'Caption'#6'#Only apply '
+  +'to RawData/Other entries'#8'TabOrder'#2#7#0#0#12'TRadioButton'#12'RadioButt'
+  +'on2'#4'Left'#2#8#6'Height'#2#15#3'Top'#3#208#0#5'Width'#3#204#0#7'Caption'#6
+  +'(Automatically try to put correct values'#7'Checked'#9#5'State'#7#9'cbChec'
+  +'ked'#8'TabOrder'#2#8#0#0#7'TButton'#7'Button1'#4'Left'#2#8#6'Height'#2#25#3
+  +'Top'#3#192#1#5'Width'#2'`'#25'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#20
+  +'Calculate statistics'#7'OnClick'#7#12'Button1Click'#8'TabOrder'#2#9#0#0#0
+]);

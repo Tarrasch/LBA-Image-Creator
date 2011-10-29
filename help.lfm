@@ -1,0 +1,56 @@
+object Form3: TForm3
+  Left = 885
+  Height = 414
+  Top = 452
+  Width = 390
+  HorzScrollBar.Page = 389
+  VertScrollBar.Page = 413
+  ActiveControl = Memo1
+  Caption = 'Help'
+  ClientHeight = 414
+  ClientWidth = 390
+  object Memo1: TMemo
+    Left = 8
+    Height = 440
+    Top = 24
+    Width = 373
+    Lines.Strings = (
+      'Basic information for Palette Editor optons:'
+      ''
+      'First choose what palette you want. It does not need any further explenation'
+      ''
+      'No palette forcing (aka palette assigning)'
+      ''
+      'If the image looks weird and you know the wrong palette is chosen, take don''t '
+      'palette force. This alternative will make the images by LIC be shown '
+      'completely different. And you cannot put in bmps from files without they also '
+      'looking weird in the real game.'
+      'This alternative won''t edit the entrys data, except for entries by LIC '
+      'considered palettes. If that is the case then the palette-entry will be replaced '
+      'with the palette you have chosen.'
+      'For Image entries, this will only really make sense if LIC shows the images '
+      'weirdly.'
+      'This always goes in no-time.'
+      ''
+      'Euclidean palette forcing:'
+      ''
+      'If you for example want all LBA1 images to use a LBA2 palette instead of the '
+      'LBA1 palette. No problem, euclidean alternative does it extremely fast due to '
+      'both input and output have a restricted space of the same size. converting '
+      'with euclidean quality. Processing time for 1 image multiplied with 2 might be '
+      'the same as the processing time for converting 1000 images (Only if the 1000 '
+      'are assigned with the same palette!).'
+      ''
+      'Dithering palette forcing:'
+      ''
+      'Dithering will result with basically the same as the euclidean, but it can wastely '
+      'improve the output image quality. It can also make it with almost the same '
+      'appearance as you would get with euclidean method. The disadvantage? It is '
+      'often in average about 100 times slower. Note that the relation is not at all the '
+      'same when it comes to load bmp''s with euclidean and dithering method.'
+    )
+    OnKeyPress = Memo1KeyPress
+    ReadOnly = True
+    TabOrder = 0
+  end
+end
